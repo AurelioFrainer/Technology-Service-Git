@@ -1,0 +1,40 @@
+@font-face {
+  font-family: "mont";
+  src: url(../Fonts/mont/Mont-HeavyDEMO.otf);
+}
+
+footer {
+  background-color: black;
+  padding-top: 45px;
+  height: 140px; /* Ajuste a altura se necessário */
+  overflow: visible; /* Permite que as imagens ultrapassem o limite do footer */
+}
+
+.image-text-container {
+  max-width: 1240px;
+  display: inline-block; /* Para alinhar horizontalmente os contêineres */
+  position: relative; /* Estabelece um contexto de posicionamento para os filhos absolutos */
+  left: 345px;
+  margin: 0 25px; /* Espaçamento entre as imagens, ajuste conforme necessário */
+}
+
+.footer-image {
+  width: 300px;
+  height: auto; /* Mantém a proporção da imagem */
+  margin-top: -165px; /* Margem negativa para fazer a imagem 'sair' do footer */
+  display: block; /* Garante que a margem negativa seja aplicada corretamente */
+}
+
+.image-text {
+  font-family: "mont";
+  color: white;
+  font-size: 20px;
+  font-weight: 400;
+  text-align: center; /* Centraliza o texto horizontalmente */
+  position: absolute; /* Posicionamento absoluto em relação ao contêiner relativo */
+  top: 80%; /* Posiciona o texto na metade da altura do contêiner */
+  left: 20%; /* Posiciona o texto na metade da largura do contêiner */
+  transform: translate(-50%, -100%); /* Ajusta o texto para o topo da imagem */
+  width: 100%; /* Faz o texto acompanhar a largura da imagem */
+  z-index: 2; /* Garante que o texto fique acima da imagem */
+}

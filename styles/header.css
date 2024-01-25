@@ -1,0 +1,36 @@
+@font-face {
+  font-family: "nexa" ;
+  src: url(../Fonts/nexa/Nexa-Heavy.ttf);
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  max-width: 1240px;
+  margin: auto;
+  margin-top: 50px;
+  align-items: center;
+}
+
+header img {
+  width: 150.5px;
+  height: 25.5px;
+}
+
+ul {
+  display: flex;
+
+}
+
+li {
+list-style-type: none;
+margin-left: 80px;
+
+}
+
+a {
+  font-size: 0.9rem;
+  font-family: "nexa";
+  color: black;
+  text-decoration: none;
+}
